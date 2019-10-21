@@ -9,7 +9,7 @@ steps:
     description: "Cloning main repository..."
     repo: "codefreshdemo/cf-example-integration-tests"
     revision: "master"
-    git: github
+    git: github-guy
     stage: prepare
   build_app_image:
     title: "Building Docker Image"
